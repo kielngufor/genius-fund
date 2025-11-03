@@ -96,13 +96,15 @@ button {
 }
 /* Footer Styling */
 #footer {
-    background-color: #EF4444; /* Dark Blue */
+    background-color: #0A0F2B /* Dark Blue */
     color: #E5E7EB; /* Light Gray */
     text-align: center;
     padding: 60px 20px;
 }
 
 #footer p {
-    margin: 8px 0;
+    margin: 8px auto !important;  /* Changed from '0' to 'auto' and added !important */
     font-size: 1rem;
+    max-width: none !important;   /* Added this line */
+    text-align: center;           /* Added this line */
 }
