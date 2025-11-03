@@ -13,8 +13,8 @@ p {
     margin: 20px auto; /* This adds space above/below and centers it */
 }
 button {
-    background-color: #F59E0B; /* The gold color from our design */
-    color: #0A0F2B; /* The dark blue color for text */
+    background-color: #F59E0B;
+    color: #0A0F2B;
     border: none;
     padding: 15px 30px;
     font-size: 1.1rem;
@@ -22,4 +22,34 @@ button {
     border-radius: 8px;
     display: block;
     margin: 30px auto;
-    cursor: pointer;
+    cursor: pointer;  /* This is where it belongs */
+}
+/* Hero Section Styling */
+#hero {
+    background-color: #0A0F2B; /* Dark Blue */
+    color: #FFFFFF;
+    text-align: center;
+    padding: 100px 20px; /* Adds spacious padding inside the section */
+}
+
+/* Problem Section Styling */
+#problem {
+    background-color: #FFFFFF; /* White */
+    color: #1F2937; /* Dark Gray for text */
+    text-align: center;
+    padding: 100px 20px;
+}
+
+/* Style the heading in the Problem section */
+#problem h2 {
+    color: #0A0F2B; /* Our dark blue */
+    font-size: 2.5rem;
+}
+
+/* Style the paragraph in the Problem section */
+#problem p {
+    color: #4B5563; /* Professional gray */
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto; /* Centers the paragraph */
+}
