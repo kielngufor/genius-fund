@@ -12,3 +12,14 @@ p {
     max-width: 800px;
     margin: 20px auto; /* This adds space above/below and centers it */
 }
+button {
+    background-color: #F59E0B; /* The gold color from our design */
+    color: #0A0F2B; /* The dark blue color for text */
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border-radius: 8px;
+    display: block;
+    margin: 30px auto;
+    cursor: pointer;
