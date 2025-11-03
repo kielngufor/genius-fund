@@ -94,3 +94,15 @@ button {
     font-size: 1.1rem;
     margin-top: 10px;
 }
+/* Footer Styling */
+#footer {
+    background-color: #0A0F2B; /* Dark Blue */
+    color: #E5E7EB; /* Light Gray */
+    text-align: center;
+    padding: 60px 20px;
+}
+
+#footer p {
+    margin: 8px 0;
+    font-size: 1rem;
+}
