@@ -111,6 +111,27 @@ p {
     max-width: none !important;   /* Added this line */
     text-align: center;           /* Added this line */
 }
+/* Our Story Section Styling */
+#story {
+    background-color: #FFFFFF; /* White */
+    color: #1F2937; /* Dark Gray for text */
+    text-align: center;
+    padding: 100px 20px;
+}
+
+#story h2 {
+    color: #0A0F2B; /* Our dark blue */
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+#story p {
+    color: #4B5563; /* Professional gray */
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto; /* Centers the paragraph */
+    line-height: 1.6;
+}
 /* Mobile Responsive Styles */
 @media (max-width: 768px) {
     #hero h1 {
