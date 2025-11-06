@@ -12,7 +12,7 @@ p {
     max-width: 800px;
     margin: 20px auto; /* This adds space above/below and centers it */
 }
-button {
+.donate-button {
     background-color: #F59E0B;
     color: #0A0F2B;
     border: none;
@@ -22,7 +22,10 @@ button {
     border-radius: 8px;
     display: block;
     margin: 30px auto;
-    cursor: pointer;  /* This is where it belongs */
+    cursor: pointer;
+    text-decoration: none; /* This removes the underline from the link */
+    text-align: center;
+    max-width: 300px; /* Optional: Keeps the button from getting too wide */
 }
 /* Hero Section Styling */
 #hero {
