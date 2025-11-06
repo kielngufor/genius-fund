@@ -108,3 +108,32 @@ button {
     max-width: none !important;   /* Added this line */
     text-align: center;           /* Added this line */
 }
+/* Mobile Responsive Styles */
+@media (max-width: 768px) {
+    #hero h1 {
+        font-size: 2.5rem !important;
+    }
+    
+    #hero p, #problem p, #solution > p {
+        font-size: 1.1rem !important;
+        padding: 0 20px;
+    }
+
+    #problem h2, #solution h2 {
+        font-size: 2rem !important;
+    }
+
+    .process-card {
+        margin: 20px 15px;
+        padding: 30px 20px;
+    }
+
+    .process-card h3 {
+        font-size: 1.5rem;
+    }
+
+    button {
+        padding: 12px 25px;
+        font-size: 1rem;
+    }
+}
